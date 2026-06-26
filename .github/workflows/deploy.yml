@@ -32,12 +32,13 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/ecom
+          path: dist/ecom/browser
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     needs: build
     runs-on: ubuntu-latest
 
