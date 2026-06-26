@@ -1,0 +1,17 @@
+.contact-section {
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+.contact-card,
+.map-card {
+  border: none;
+  border-radius: 1rem;
+}
+.contact-map {
+  width: 100%;
+  height: 380px;
+  border: 0;
+}
+.map-header {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}

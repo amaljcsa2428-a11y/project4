@@ -1,0 +1,12 @@
+.home-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f1f6ff 100%);
+}
+.home-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.home-card img {
+  height: 420px;
+  object-fit: cover;
+}
